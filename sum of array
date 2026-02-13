@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize an array
+    int numbers[] = {10, 20, 30, 40, 50};
+    int size = sizeof(numbers) / sizeof(numbers[0]); // Calculate the size of the array
+    int sum = 0; // Initialize sum to 0. This is crucial to avoid garbage values
+    int i; // Loop counter
+
+    // Iterate through the array and add each element to the sum
+    for (i = 0; i < size; i++) {
+        sum += numbers[i]; // Same as sum = sum + numbers[i];
+    }
+
+    // Print the result
+    printf("Sum of array elements is: %d\n", sum);
+
+    return 0;
+}
