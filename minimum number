@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 2, num2 = 5;
+    int minimum;
+
+    if (num1 < num2) {
+        minimum = num1;
+    } else {
+        minimum = num2;
+    }
+
+    printf("The minimum number is: %d\n", minimum);
+
+    return 0;
+}
+
