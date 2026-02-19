@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    string name = "Sheku";
+    int age = 20;
+    string department = "EEE";
+    cout << "----- Student Information -----" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Department: " << department << endl;
+
+    return 0;
+}
